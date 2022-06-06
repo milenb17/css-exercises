@@ -24,19 +24,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
 .sidebar {
   width: 300px;
   flex-shrink: 0;
   background: royalblue;
+
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  margin: 16px;
+  padding: 16px;
 }
 
 .middle {
@@ -61,5 +64,8 @@ a {
 }
 
 .cards {
-  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 32px;
 }
